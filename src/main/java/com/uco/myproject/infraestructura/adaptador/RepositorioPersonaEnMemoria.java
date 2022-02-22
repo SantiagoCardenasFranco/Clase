@@ -11,6 +11,7 @@ import java.util.stream.Collectors;
 
 @Repository
 public class RepositorioPersonaEnMemoria implements RepositorioPersona {
+
     private long secuencia;
     private final HashMap<Long, Persona> personas = new HashMap<>();
 
